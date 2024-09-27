@@ -12,6 +12,9 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        koulen: ["var(--koulen-font)", "sans-serif"], // Use the variable defined by the font
+      },
     },
   },
   plugins: [],
